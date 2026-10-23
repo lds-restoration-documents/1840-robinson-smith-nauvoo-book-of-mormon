@@ -1,0 +1,12 @@
+<!-- image 514 -->
+<!-- pencil marginal mark and pencil line drawn under the first paragraph (handwriting, not transcribed) -->
+**Header:** 510 | BOOK OF MORMON.
+
+<!-- cont --> they slew, was the very Christ, and the very God; and I would that I could persuade all ye ends of the earth to repent and prepare to stand before the judgment seat of Christ.
+
+<!-- decorative ornament printed above the chapter heading -->
+## CHAPTER II.
+
+AND now it came to pass that in the three hundred and sixty and third year, the Nephites did go up with their armies to battle against the Lamanites, out of the land Desolation. And it came to pass that the armies of the Nephites were driven back again to the land of Desolation. And while they were yet weary, a fresh army of the Lamanites did come upon them; and they had a sore battle, insomuch that the Lamanites did take possession of the city Desolation, and did slay many of the Nephites, and did take many prisoners; and the remainder did flee and join the inhabitants of the city Teancum. Now the city Teancum lay in the borders by the seashore; and it was also near the city Desolation. And it was because the armies of the Nephites went up unto the Lamanites, that they began to be smitten; for were it not for that, the Lamanites could have had no power over them. But behold, the judgments of God will overtake the wicked; and it is by the wicked, that the wicked are punished; for it is the wicked that stir up the hearts of the children of men unto bloodshed. And it came to pass that the Lamanites did make preparations to come against the city Teancum.
+
+And it came to pass in the three hundred and sixty and fourth year, the Lamanites did come against the city Teancum, that they might take possession of the city Teancum also. And it came to pass that they were repulsed and driven back by the Nephites. And when the Nephites saw that they had driven the Lamanites, they did again boast of their strength: and they went forth in their own might, and took possession again of the city Desolation. And now all these things had been done, and there had been thousands slain on both sides, both the Nephites and the Lamanites. And it came to pass that the three hundred and sixty and sixth year had passed away, and the Lamanites came again upon the Nephites to battle; and yet the Nephites repented not of the evil they had done, but persisted in their wickedness continually. And it is impossible for the tongue to describe, or for man to write a per-

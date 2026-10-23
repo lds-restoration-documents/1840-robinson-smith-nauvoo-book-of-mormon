@@ -1,0 +1,12 @@
+<!-- image 397 -->
+**Header:** BOOK OF ALMA. | 393
+
+<!-- cont --> ites were encircled about in the borders by the wilderness, on the south, and in the borders by the wilderness, on the east; and thus they did encamp for the night. For behold, the Nephites and the Lamanites also, were weary because of the greatness of the march; therefore they did not resolve upon any stratagem in the night time, save it were Teancum: for he was exceeding angry with Ammoron, insomuch that he considered that Ammoron, and Amalickiah his brother, had been the cause of this great and lasting war between them and the Lamanites, which had been the cause of so much war and bloodshed, yea, and so much famine.
+
+And it came to pass that Teancum in his anger did go forth into the camp of the Lamanites, and did let himself down over the walls of the city. And he went forth with a cord, from place to place, insomuch that he did find the king; and he did cast a javeline at him, which did pierce him near the heart. But behold, the king did awake his servant before he died, insomuch that he did pursue Teancum, and slew him.
+
+Now it came to pass that when Lehi and Moroni knew that Teancum was dead, they were exceeding sorrowful: for behold, he had been a man who had fought valiantly for his country, yea, a true friend to liberty; and he had suffered very many exceeding sore afflictions. But behold, he was dead, and had gone the way of all the earth.
+
+Now it came to pass that Moroni marched forth on the morrow, and came upon the Lamanites, insomuch that they did slay them with a great slaughter; and they did drive them out of the land; and they did flee, even that they did not return at that time against the Nephites. And thus ended the thirty and first year of the reign of the judges over the people of Nephi; and thus they had had wars, and bloodsheds, and famine, and affliction, for the space of many years. And there had been murders, and contentions, and dissensions, and all manner of iniquity among the people of Nephi; nevertheless, for the righteous' sake, yea, because of the prayers of the righteous, they were spared. But behold, because of the exceeding great length of the war between the Nephites and the Lamanites, many had become hardened, because of the exceeding great length of the war; and many were softened, because of their afflictions, insomuch that they did humble themselves before God, even in the dephth of humility.
+
+And it came to pass that after Moroni had fortified those parts of the land which were most exposed to the Laman-

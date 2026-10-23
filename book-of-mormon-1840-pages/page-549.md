@@ -1,0 +1,14 @@
+<!-- image 549 -->
+**Header:** BOOK OF ETHER. | 545
+
+<!-- cont --> days; and he begat Coriantum, and Coriantum dwelt in captivity all his days; and he begat Com. And it came to pass that Com drew away the half of the kingdom. And he reigned over the half of the kingdom forty and two years: and he went to battle against the king Amgid, and they fought for the space of many years, during which time Com gained power over Amgid, and obtained power over the remainder of the kingdom. And in the days of Com there began to be robbers in the land; and they adopted the old plans, and administered oaths after the manner of the ancients, and sought again to destroy the kingdom. Now Com did fight against them much; nevertheless, he did not prevail against them. And there came also in the days of Com many prophets, and prophesied of the destruction of that great people, except they should repent and turn unto the Lord, and forsake their murders and wickedness.
+
+And it came to pass that the prophets were rejected by the people, and they fled unto Com for protection, for the people sought to destroy them; and they prophesied unto Com many things; and he was blessed in all the remainder of his days. And he lived to a good old age, and begat Shiblom; and Shiblom reigned in his stead. And the brother of Shiblom rebelled against him; and there began to be an exceeding great war in all the land.
+
+And it came to pass that the brother of Shiblom caused that all the prophets who prophesied of the destruction of the people, should be put to death; and there was great calamity in all the land, for they had testified that a greater curse should come upon the land, and also upon the people, and that there should be a great destruction among them, such an one as never had been upon the face of the earth; and their bones should become as heaps of earth upon the face of the land, except they should repent of their wickedness. And they hearkened not unto the voice of the Lord, because of their wicked combinations; wherefore there began to be wars and contentions in all the land, and also many famines and pestilences, insomuch that there was a great destruction, such an one as never had been known upon the face of the earth, and all this came to pass in the days of Shiblom. And the people began to repent of their iniquity; and inasmuch as they did, the Lord did have mercy on them.
+
+And it came to pass that Shiblom was slain, and Seth was brought into captivity; and did dwell in captivity all his days. And it came to pass that Ahah, his son, did
+
+---
+
+Footer: 46*

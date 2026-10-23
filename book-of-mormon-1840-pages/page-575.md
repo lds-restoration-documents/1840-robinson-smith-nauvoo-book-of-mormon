@@ -1,0 +1,4 @@
+<!-- image 575 -->
+**Header:** BOOK OF MORONI. | 571
+
+<!-- cont --> and if ye shall deny yourselves of all ungodliness, and love God with all your might, mind and strength, then is his grace sufficient for you, that by his grace ye may be perfect in Christ; and if by the grace of God ye are perfect in Christ, ye can in no wise deny the power of God. And again, if ye, by the grace of God are perfect in Christ, and deny not his power, then are ye sanctified in Christ by the grace of God, through the shedding of the blood of Christ, which is in the covenant of the Father, unto the remission of your sins, that ye become holy without spot. And now I bid unto all, farewell. I soon go to rest in the paradise of God, until my spirit and body shall again reunite, and I am brought forth triumphant through the air, to meet you before the pleasing bar of the great Jehovah, the eternal Judge of both quick and dead. Amen.

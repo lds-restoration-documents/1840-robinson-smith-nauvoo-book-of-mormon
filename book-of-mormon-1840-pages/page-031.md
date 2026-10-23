@@ -1,0 +1,13 @@
+<!-- image 031 -->
+<!-- handwritten pencil/ink marginal annotation at right, not transcribed -->
+**Header:** FIRST BOOK OF NEPHI. | 27
+
+<!-- cont --> I beheld that he went forth ministering unto the people, in power and great glory; and the multitudes were gathered together to hear him: and I beheld that they cast him out from among them. And I also beheld twelve others following him.
+
+And it came to pass that they were carried away in the spirit, from before my face, and I saw them not. And it came to pass that the angel spake unto me again, saying, look! And I looked, and I beheld the heavens open again, and I saw angels descending upon the children of men; and they did minister unto them. And he spake unto me again, saying, look! And I looked, and I beheld the Lamb of God going forth among the children of men. And I beheld multitudes of people who were sick, and who were afflicted with all manner of diseases, and with devils, and unclean spirits, and the angel spake, and shewed all these things unto me. And they were healed by the power of the Lamb of God, and the devils and the unclean spirits were cast out.
+
+And it came to pass that the angel spake unto me again, saying, look! And I looked and beheld the Lamb of God, that he was taken by the people; yea, the Son of the everlasting God was judged of the world; and I saw and bear record. And I, Nephi, saw that he was lifted up upon the cross, and slain for the sins of the world. And after he was slain, I saw the multitudes of the earth, that they were gathered together to fight against the apostles of the Lamb; for thus were the twelve called by the angel of the Lord. And the multitude of the earth was gathered together; and I beheld that they were in a large and spacious building, like unto the building which my father saw! And the angel of the Lord spake unto me again, saying, behold the world and the wisdom thereof; yea, behold, the house of Israel hath gathered together, to fight against the twelve apostles of the Lamb.
+
+And it came to pass that I saw and bear record, that the great and spacious building was the pride of the world; and it fell; and the fall thereof was exceeding great. And the angel of the Lord spake unto me again, saying, thus shall be the destruction of all nations, kindreds, tongues and people, that shall fight against the twelve apostles of the Lamb.
+
+And it came to pass that the angel said unto me, look, and behold thy seed, and also the seed of thy brethren! And I looked and beheld the land of promise; and I beheld multitudes of people, yea, even as it were in number, as many as the sand of the sea.
