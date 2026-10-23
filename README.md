@@ -1,8 +1,6 @@
 # 1840 Robinson & Smith Nauvoo Book of Mormon
 [Markdown](#what-is-markdown) & Plain Text extractions of the content of the 1840 (third) edition of the Book of Mormon, printed at Nauvoo, Illinois, by Robinson and Smith and stereotyped by Shepard and Stearns of Cincinnati. Extracted using AI.
 
-**Status: all 587 pages of the scan are transcribed and structure-checked, and all 569 text pages were then proofread blind by a separate AI agent. The owner has decided the doubtful marks it left open against the scan; a full human proofread has not been done yet.** Expect remaining errors, especially colon versus semicolon and comma versus period, which are hard to tell apart in this scan, and worn letters that both AI readers may have normalized.
-
 ## Files
 * [book-of-mormon-1840.md](book-of-mormon-1840.md): the whole text in a single [Markdown](#what-is-markdown) file (about 270,000 words): the title pages, the Book of Mormon and the testimonies of the Three and Eight Witnesses. A `<!-- page NNN -->` comment marks where each PDF page begins.
 * [book-of-mormon-1840.txt](book-of-mormon-1840.txt): the same text as plain text, with no [Markdown](#what-is-markdown).
@@ -29,6 +27,8 @@ Markdown is a simple way of writing formatted text using plain characters, such 
 Extracted with Claude Code from Anthropic using the Sonnet 5.5 model. Each page is transcribed from two crops of its scan image (there is no text layer or OCR), four pages at a time, by separate AI agents; a script then checks the structure of every page file, and doubtful marks were rechecked at higher zoom. A separate AI agent working blind then proofread all 569 text pages against the scan (the first 130 chosen by a local OCR comparison and a random sample, the rest afterwards). It corrected 9 small errors and logged 20 disagreements. The owner then decided those 20 and 41 doubtful readings marked in the pages against the scan, which changed about 15 readings; 32 doubtful readings remain marked in the page files. Where a mark was too worn to tell a comma from a period, the gap after it and whether the next word starts with a capital letter were used to decide. The text is meant to show what the page shows, so printer's spellings and errors, punctuation, hyphenation and paragraphing are kept. A few things are deliberately **not** reproduced: the thin space the type may put before `;`, `:`, `?` and `!`, handwriting, stamps, and ink specks, stains and bleed-through that are not letters or punctuation.
 
 **This is an AI transcription. Only its doubtful places have been checked by a person; the book as a whole has not been proofread by a person.** The most likely places for a remaining error are punctuation on worn type, worn letters, and the squeezed left edge of pages near the spine. For anything that matters, check the scan.
+
+**Status: all 587 pages of the scan are transcribed and structure-checked, and all 569 text pages were then proofread blind by a separate AI agent. The owner has decided the doubtful marks it left open against the scan; a full human proofread has not been done yet.** Expect remaining errors, especially colon versus semicolon and comma versus period, which are hard to tell apart in this scan, and worn letters that both AI readers may have normalized.
 
 These files record how it was checked:
 
