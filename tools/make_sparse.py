@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Build the sparse plain-text file (Book of Mormon text only) from book-of-mormon-1840.md.
 
-Keeps book titles, chapter headings and paragraphs from the image ranges that
-hold the Book of Mormon proper, plus the title page (image 1), which was translated
-from the plates; the 1840 imprint at the foot of the title page (translator, place, printer,
-publishers, year) is not part of that translation and is left out. Drops everything else
-(title-page verso, preface, testimonies, notices) and any
-paragraph that is only an end marker such as FINIS.
+Keeps book titles, chapter headings and paragraphs from the page ranges that hold the
+Book of Mormon proper, plus the second title page (PDF page 9, "An account written by the hand
+of Mormon upon plates taken from the plates of Nephi ... Moroni"), which was translated from the
+plates. Drops everything else: the printed title page with the 1840 imprint (translator, place,
+printer, stereotypers, year; not part of that translation), its verso, the testimonies and notices,
+and any paragraph that is only an end marker such as FINIS.
 
 The compiled Markdown carries <!-- page NNN --> markers, which this script uses
-to decide what is in range. PAGE_RANGES is specific to the scan (image
+to decide what is in range. PAGE_RANGES is specific to the scan (PDF page
 numbers, not printed folios): see transcription-notes.md §1.
 
 Usage:  python3 tools/make_sparse.py [--md FILE] [--out FILE] [--verbose]
@@ -20,14 +20,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-# Inclusive PDF-page ranges kept: the title page (7, translated from the plates) and the text from
-# page 11 (1 Nephi) through page 575 (end of Moroni). The title-page verso (8), the second title page (9)
+# Inclusive PDF-page ranges kept: the second title page (9, translated from the plates) and the text from
+# page 11 (1 Nephi) through page 575 (end of Moroni). The title page with the imprint (7), its verso (8)
 # and the testimonies (576-577) are outside it. Printed folio = PDF page - 4. Confirmed against the page files.
-PAGE_RANGES = [(7, 7), (11, 575)]  # confirmed: 7 title page, 11 opens 1 Nephi, 575 ends Moroni
-
-# On the title page, the paragraphs of the 1840 imprint are dropped (they start with these words).
-TITLE_PAGE = 7
-IMPRINT_PREFIXES = ('TRANSLATED BY', 'JOSEPH SMITH', 'THIRD EDITION', 'CAREFULLY REVISED', 'NAUVOO', 'PRINTED BY', 'STEREOTYPED', 'West 3rd', '1840')
+PAGE_RANGES = [(9, 9), (11, 575)]  # confirmed: 9 second title page, 11 opens 1 Nephi, 575 ends Moroni
 
 END_MARKERS = re.compile(r'\*?(THE END[.,]?|FINIS[.,]?)\*?', re.I)
 
@@ -72,8 +68,7 @@ def main():
     items = annotate(Path(args.md).read_text(encoding='utf-8'))
     kept, dropped = [], []
     for pg, p in items:
-        if (in_range(pg) and not END_MARKERS.fullmatch(p.strip())
-                and not (pg == TITLE_PAGE and p.startswith(IMPRINT_PREFIXES))):
+        if in_range(pg) and not END_MARKERS.fullmatch(p.strip()):
             kept.append(p)
         else:
             dropped.append((pg, p))

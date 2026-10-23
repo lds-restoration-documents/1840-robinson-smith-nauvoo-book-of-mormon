@@ -26,7 +26,7 @@ The scripts and instructions used to produce the files in this repository. The p
 
 - `prepare_images.py` crops with a threshold-based finder for the paper and the ink; the first and last pages (covers, blank leaves) fall back to the whole photo.
 - `compile_markdown.py` strips comments, running heads and footers, and rejoins paragraphs that run across a page break using the `<!-- cont -->` marker; a line-end hyphen at a page end is closed up. It aborts if a `<!-- cont -->` has no paragraph to continue.
-- `make_sparse.py` keeps only the page ranges in `PAGE_RANGES` (page 7, the title page, and pages 11–575, 1 Nephi through Moroni) and drops the title-page imprint paragraphs (`IMPRINT_PREFIXES`).
+- `make_sparse.py` keeps only the page ranges in `PAGE_RANGES` (page 9, the second title page, which was translated from the plates, and pages 11–575, 1 Nephi through Moroni); the printed title page with the 1840 imprint (page 7) is left out.
 - `make_typo_catalog.py` builds `../printer-typos.md` from a curated list in the script (from a dictionary scan of the compiled text); forms that do not occur simply produce no rows.
 - `make_uncertain_log.py` builds `../uncertain-log.md` from the comments in the page files.
 - `prepare_images.py` can clip a running head (page 218); check the full photo before changing a header.

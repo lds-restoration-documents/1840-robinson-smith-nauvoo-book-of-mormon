@@ -4,7 +4,7 @@
 ## Files
 * [book-of-mormon-1840.md](book-of-mormon-1840.md): the whole text in a single [Markdown](#what-is-markdown) file (about 270,000 words): the title pages, the Book of Mormon and the testimonies of the Three and Eight Witnesses. A `<!-- page NNN -->` comment marks where each PDF page begins.
 * [book-of-mormon-1840.txt](book-of-mormon-1840.txt): the same text as plain text, with no [Markdown](#what-is-markdown).
-* [book-of-mormon-1840-sparse.txt](book-of-mormon-1840-sparse.txt): plain text of the Book of Mormon proper only: the title page (without its imprint) and the text from 1 Nephi through Moroni, leaving out the copyright notice, the second title page and the testimonies of the witnesses.
+* [book-of-mormon-1840-sparse.txt](book-of-mormon-1840-sparse.txt): plain text of the Book of Mormon proper only: the title page that was translated from the plates ("An account written by the hand of Mormon…", PDF page 9) and the text from 1 Nephi through Moroni, leaving out the printed title page with the 1840 imprint, the copyright notice and the testimonies of the witnesses.
 * [book-of-mormon-1840-pages/](book-of-mormon-1840-pages/): one [Markdown](#what-is-markdown) file per page of the scan PDF (`page-001.md` to `page-587.md`). File numbers are PDF page numbers (printed page number = PDF page minus 4 in the main text). These are the source of truth; the files above are generated from them. Pages with no text (covers, labels, blank leaves) have a one-line description.
 * [printer-typos.md](printer-typos.md): a catalog of the printer's slips and misspellings in the 1840 print (about 125 occurrences, each with its page and context), leaving out spellings that were normal or intentional for the period, such as "shew" (likely, not exhaustive).
 
