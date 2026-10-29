@@ -68,3 +68,62 @@ The owner decided all 20 disagreements against the scan with `tools/make_review_
 - the other 30: kept, comments left in place
 
 **Page 361**: the running head prints "257" (expected "357"); a layout comment records the printer's misnumbering. `check_structure.py` keeps warning about it, as intended.
+
+## Second proofread: 50 more pages (2026-10-24)
+
+A second blind pass (same spec, new agents, own images) over 50 random pages that had already been proofread once (seed 1841): 12, 22, 24, 31, 39, 49, 57, 62, 69, 76, 100, 105, 117, 123, 136, 149, 150, 154, 158, 159, 166, 170, 171, 182, 186, 206, 218, 234, 240, 261, 263, 268, 273, 274, 279, 287, 347, 372, 395, 401, 427, 429, 432, 434, 458, 475, 494, 505, 574, 575. Logs: `work/proof2-log-*.md` (local). Result: 2 edits in 50 pages, 2 disagreements for the owner.
+
+**Edits (2)**
+- **105**: "my people unto all those" -> "my peopole unto all those" (scan prints "peo-" at a line end and "pole" at the start of the next; the file had normalized it)
+- **171**: first line "Now behold..." gets `<!-- cont -->` (flush-left like the lines below; the next paragraph is indented)
+
+**Disagreements for the owner (2)**
+- **136**: para 4, line 2, "the tree profiteth": file has no mark; the scan shows a dark blot at mid-height between "tree" and "profiteth", not clearly a comma (not edited)
+- **427**: "whatsoever ye shall loose": file has "whatsoever ye"; the scan prints "whatsoeverye" with almost no space (spacing only; not edited; compare the "nochildren" decision on 69)
+
+Also noted, no change: page 218's running head is clipped in the band crop (the full photo shows "214 | BOOK OF MOSIAH."); page 150, a blot after "warned" judged not a comma.
+
+## Third proofread: 25 more pages (2026-10-24)
+
+A third blind pass (same spec, new agents, own images) over 25 random pages outside the seed-1841 set (seed 1842): 50, 58, 71, 78, 148, 163, 164, 205, 207, 216, 228, 254, 283, 297, 299, 330, 392, 402, 412, 425, 437, 493, 501, 564, 567. Logs: `work/proof2-log-50.md`, `-148`, `-207`, `-283`, `-392`, `-437`, `-564` (local). Result: 1 edit in 25 pages, no tie-breaker uses, no disagreements.
+
+**Edits (1)**
+- **299**: "is because of sin" -> "is becanse of sin" (zoom 3 plainly prints b-e-c-a-n-s-e; the file had normalized it)
+
+Also noted, no change: page 50's raised comma-like mark after "wicked." (existing `uncertain` comment kept); page 425 has a pencil mark in the left margin beside "will" (not text).
+
+## Fourth proofread: next 25 pages in order (2026-10-24)
+
+Sampling stopped; the second blind pass now proceeds through the book in page order, skipping pages already given a second pass (seeds 1841 and 1842). This round: 7, 9, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 25, 26, 27, 28, 29, 30, 32, 33, 34, 35, 36, 37. Logs: `work/proof2-log-{7,14,18,23,28,32,35}.md` (local). Result: no edits, no tie-breaker uses, no disagreements. Next page to do: 38.
+
+## Fifth proofread: next 25 pages in order (2026-10-24)
+
+Sequential second pass, continued: 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 51, 52, 53, 54, 55, 56, 59, 60, 61, 63, 64, 65, 66, 67, 68. Logs: `work/proof2-log-{38,43,47,53,59,64,68}.md` (local). Result: no edits, no tie-breaker uses, no disagreements. Next page to do: 69 (69 itself was second-read in the seed-1841 round, so the next unread page is 70).
+
+## Sequential second pass, 2026-10-29 (pages 70-408 not already second-read)
+
+Resumed by the scheduled job; same spec, 4 pages per agent, 8 agents at a time. Every text page from 70 through 408 that had not yet been second-read (the seed-1841/1842 pages were skipped) is now done; logs `work/proof2-log-<first page>.md` (local). Result: 1 edit, no tie-breaker uses, 3 disagreements for the owner.
+
+**Edit (1)**
+- **380**: first line "AND now" -> "And now" (checked in the main session at the scan: mixed-case "And now", like the paragraph openers below it)
+
+**Disagreements for the owner (3)**
+- **97**: "such as was in her vexation": file has "as", the agent read "us" (possibly a worn "a"; not edited)
+- **135**: paragraph 2, "all the / land of the vineyard": file has "all the land"; the scan shows "the" at the line end and an inked-over blot shaped like "the" at the start of the next line, possibly a doubled "the" (blot; not edited)
+- **313**: first paragraph, "exercise" (already has an `uncertain` comment): file has "exercise", agent read "exereise" at zoom 3 (fourth letter may be a worn "c"; not edited)
+
+### Sequential pass, pages 409-577 (completed 2026-10-29)
+
+The rest of the book is now second-read. Result for 409-577: 1 edit, no tie-breaker uses, 1 more disagreement.
+
+**Edit (1)**
+- **492**: removed the paragraph break before "And now behold I say unto you": the line starts flush-left in the scan and follows a full-width line ("...saith the Lord."), so it joins the previous paragraph (checked in the main session at the scan)
+
+**Disagreement for the owner (1)**
+- **472**: "neighbor, and hate, thine enemy": file has a comma after "hate"; at zoom 3 the mark is a small round dot without a tail (period-like), but the gap is tight and the next word is lowercase (comma by the tie-breaker); signals conflict, left as a comma
+
+**Totals for the whole second pass (seeds 1841/1842 + sequential, every text page 7, 9, 11-577):** 5 edits in the pages-70-577 sequential pass and the seed rounds together are 105, 171, 299, 380, 492; open owner decisions: 97, 135, 136, 313, 427, 472. Every text page has now been second-read; logs are `work/proof2-log-*.md` (local).
+
+## Owner decisions on the six open items (2026-10-29)
+
+Decided with `tools/make_review_checklist.py --items`. Page 135: CHANGE, "all the the land" (doubled "the" across the line break, printed that way). Page 472: no comma after "hate"; the file already reads "and hate thine enemy", so no edit. Pages 97 ("as"), 136, 313 ("exercise") and 427: keep the file.

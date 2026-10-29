@@ -9,7 +9,7 @@ text block's height), so the mark can be a few lines above or below the middle o
 link (a PDF page at 1x, written beside the checklist) when in doubt. No images go in tracked files; the
 output is under work/ (gitignored).
 
-Usage:  ~/.venvs/lds-transcribe/bin/python tools/make_review_checklist.py [--pdf FILE] [--half 300]
+Usage:  ~/.venvs/lds-transcribe/bin/python tools/make_review_checklist.py [--pdf FILE] [--half 300] [--items FILE.json [--with-uncertain]]
 """
 import argparse
 import base64
@@ -81,9 +81,16 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--pdf', default=str(PDF))
     ap.add_argument('--half', type=int, default=300, help='half-height of each crop in px (default 300)')
+    ap.add_argument('--with-uncertain', action='store_true', help='with --items: also add every uncertain comment in the page files')
+    ap.add_argument('--items', help='JSON list of {"p": page, "q": question, "n": quoted text}: build the checklist from these only')
     args = ap.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
-    items = disagreements() + uncertain()
+    if args.items:
+        items = [dict(it, kind='disagreement') for it in json.loads(Path(args.items).read_text(encoding='utf-8'))]
+        if args.with_uncertain:
+            items += uncertain()
+    else:
+        items = disagreements() + uncertain()
     doc = pdfium.PdfDocument(args.pdf)
     cache = {}
     rows = []
@@ -136,7 +143,7 @@ button{font:inherit;padding:4px 12px}textarea{width:100%;height:160px;margin-top
 ''' + '\n'.join(rows) + '''
 <script>
 const items=''' + json.dumps([{'p': i['p'], 'n': i['n'], 'kind': i['kind'], 'q': i['q']} for i in items]) + ''';
-const KEY="review-checklist-1840";let s={};try{s=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+const KEY="review-checklist-1840-"+items.map(i=>i.p+":"+i.n).join("|").split("").reduce((h,c)=>(h*31+c.charCodeAt(0))>>>0,7);let s={};try{s=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
 function save(){try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}cnt()}
 function cnt(){document.getElementById("cnt").textContent=Object.keys(s).filter(k=>s[k].d).length+" of "+items.length}
 document.querySelectorAll(".item").forEach(sec=>{const k=sec.dataset.k;s[k]=s[k]||{};

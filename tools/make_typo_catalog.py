@@ -34,7 +34,7 @@ SECTIONS = [
             ('jugdments', 'judgments', ''), ('kngdom', 'kingdom', ''), ('knowedge', 'knowledge', ''),
             ('laciviousness', 'lasciviousness', ''), ('ministed', 'ministered', ''), ('meausure', 'measure', ''),
             ('nnmber', 'number', 'worn u'), ('perservation', 'preservation', ''), ('phophetess', 'prophetess', ''),
-            ('plainess', 'plainness', ''), ('pleasin', 'pleasing', ''), ('exeeeding', 'exceeding', 'worn c; owner decision'), ('chirdren', 'children', 'damaged h; owner decision'),
+            ('plainess', 'plainness', ''), ('pleasin', 'pleasing', ''), ('exeeeding', 'exceeding', 'worn c; owner decision'), ('peopole', 'people', 'split peo-/pole at a line end'), ('poople', 'people', ''), ('chirdren', 'children', 'damaged h; owner decision'),
             ('preceeded', 'preceded', 'period spelling variant'), ('prohet', 'prophet', ''),
             ('secutity', 'security', ''), ('seige', 'siege', 'period spelling variant'), ('spotloss', 'spotless', ''),
             ('strengh', 'strength', ''), ('stubborness', 'stubbornness', ''), ('sufficently', 'sufficiently', ''),
