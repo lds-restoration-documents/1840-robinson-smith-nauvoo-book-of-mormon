@@ -11,6 +11,9 @@ Usage:  python3 tools/make_typo_catalog.py [--md FILE] [--out FILE]
 import argparse
 import re
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from frontmatter import strip_frontmatter  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -82,7 +85,7 @@ Spellings that were normal or intentional for the period or the edition are not 
 
 
 def load(md):
-    raw = md.read_text(encoding='utf-8')
+    raw = strip_frontmatter(md.read_text(encoding='utf-8'))
     parts = re.split(r'<!-- page (\d+) -->', raw)
     segs, cur = [], 0
     for i, t in enumerate(parts):
