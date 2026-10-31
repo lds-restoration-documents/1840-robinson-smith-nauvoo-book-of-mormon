@@ -1,3 +1,15 @@
+---
+title: The Book of Mormon (Nauvoo, 1840)
+translator: Joseph Smith Jr.
+publisher: Robinson and Smith (stereotyped by Shepard and Stearns, Cincinnati)
+place: Nauvoo, Ill.
+publication_year: 1840
+source_scan: https://www.josephsmithpapers.org/paper-summary/book-of-mormon-1840/ (copy held by the Historian's Office Library of The Church of Jesus Christ of Latter-day Saints; page images downloaded with Archive Viewer)
+transcription_method: AI-assisted transcription from page images (Claude Sonnet 5.5); two blind AI proofreads of every text page; owner review of disagreements and uncertain readings; no full human proofread
+repository: https://github.com/lds-restoration-documents/1840-robinson-smith-nauvoo-book-of-mormon
+version: "v1.0.0+modified (2026-10-31, 6a97638)"
+---
+
 <!-- page 007 -->
 
 THE
