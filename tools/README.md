@@ -16,7 +16,7 @@ The scripts and instructions used to produce the files in this repository. The p
 4. **Rebuild the combined files** (standard library only; run in this order; each writes to the repo root, `--out` redirects):
    ```
    python3 tools/compile_markdown.py     # -> book-of-mormon-1840.md
-   python3 tools/make_plaintext.py       # -> book-of-mormon-1840.txt
+   python3 tools/make_plaintext.py       # -> book-of-mormon-1840.txt (first line: `#` header from tools/frontmatter.py)
    python3 tools/make_sparse.py          # -> book-of-mormon-1840-sparse.txt
    python3 tools/make_typo_catalog.py    # -> printer-typos.md
    python3 tools/make_uncertain_log.py   # -> uncertain-log.md
